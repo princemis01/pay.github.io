@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css">
+    <title>Pay Calculator</title>
+</head>
+<body>
+    <label for="hours">Hours:</label>
+    <input type="number" id="hours" placeholder="Enter total hours">
+    <br>
+    <br>
+    <label for="pay">Pay:</label>
+    <input type="number" id="pay" placeholder="Enter hourly pay">
+    <br>
+    <br>
+    <input type="submit" value="Calculate Pay" onclick="calculatePay()">
+    <br>
+    <br>
+    <label for="result">Total Pay:</label>
+    <input type="number" id="result" readonly>
+    
+    <script src="pay.js"></script>
+</body>
+</html>
